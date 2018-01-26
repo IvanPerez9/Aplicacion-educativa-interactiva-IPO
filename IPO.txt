@@ -10,12 +10,15 @@ Utilidades:
 -Dejarlo bonito aun q no funcione
 
 Partes:
--Analisis de requisitos entrega [23/2/2018]:Diseñar el proceso de captacion de datos, 
-		  diseñarlo y ejecutar ese proceso mediane entrevistas, encuestas etc.
+-Analisis de requisitos entrega [23/2/2018]:DiseÃ±ar el proceso de captacion de datos, 
+		  diseÃ±arlo y ejecutar ese proceso mediane entrevistas, encuestas etc.
 		  Entregar una memoria detallando todo el proceso con el prototitpo de baja fidelidad.
 
--Aspectos de diseño, usabilidad y accesibilidad entrega[6/4/2018]:Entregar una memoria indicanco los aspectos de usabilidad y accesibilidad y entregar
+-Aspectos de diseÃ±o, usabilidad y accesibilidad entrega[6/4/2018]:Entregar una memoria indicanco los aspectos de usabilidad y accesibilidad y entregar
 		  el prototipo de ata fidelidad.
 
 -Evaluacion de las interfaces por observacion entrega[3/5/2018]:Los alumnos de educacion evaluaran la aplicacion y si no se ajusta a los requisitos 
 		  ue pidieron se tendra que ajustar e introducir mejoras.
+		  
+<h2> [9/2/2018]quedada con alumnos de educacion </h2>
+<h2> [20/4/2018]quedada con alumnos de educacion para la evaluacion </h2>
