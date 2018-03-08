@@ -11,10 +11,88 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 
+    <!--Custom css -->
+    <link href="css/register.css" rel="stylesheet">
 
 </head>
 
 <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="register.html">
+                <img class="imgU" src="img/LogoU.png" height="40" width="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio
+                            <span class="sr-only"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asignaturas.html">Asignaturas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="login.html" class="nav-link" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-user"></span>
+                            <strong>Acceso</strong>
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <!-- Dropdown menu para responsive -->
+                        <!--
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="navbar-login">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <p class="text-center">
+                                                <span class="glyphicon glyphicon-user icon-size"></span>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <p class="text-left">
+                                                <strong>Nombre Apellido</strong>
+                                            </p>
+                                            <p class="text-left small">correoElectronico@email.com</p>
+                                            <p class="text-left">
+                                                <a href="#" class="btn btn-primary btn-block btn-sm">Actualizar Datos</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="navbar-login navbar-login-session">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <p>
+                                                <a href="#" class="btn btn-danger btn-block">Cerrar Sesion</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    -->
+                        <!-- Fin dropdown -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!--hero section-->
     <section class="hero">
         <div class="container">
@@ -46,16 +124,16 @@
                             </div>
                             </form>
                             <div style="float: left; width: 48%">
-                                    <button type="submit" class="btn btn-primary btn-block" id="crearCuenta"> Crear Cuenta </button>
-                                    <script type="text/javascript">
-                                        document.getElementById("crearCuenta").onclick = function () {
-                                            location.href = "index.html";
-                                        };
-                                    </script>
-                                </div>
-                                <div style="float: right; width: 48%">
-                                    <button type="reset" class="btn btn-primary btn-block"> Cancelar </button>
-                                </div>
+                                <button type="submit" class="btn btn-primary btn-block" id="crearCuenta"> Crear Cuenta </button>
+                                <script type="text/javascript">
+                                    document.getElementById("crearCuenta").onclick = function () {
+                                        location.href = "index.html";
+                                    };
+                                </script>
+                            </div>
+                            <div style="float: right; width: 48%">
+                                <button type="reset" class="btn btn-primary btn-block"> Cancelar </button>
+                            </div>
                         </div>
                         <p class="text-center">
                             ¿ Ya tienes cuenta ?
@@ -65,7 +143,7 @@
                             <button type="submit" class="btn btn-primary" id="goBackbtn">Volver</button>
                             <script type="text/javascript">
                                 document.getElementById("goBackbtn").onclick = function () {
-                                    location.href = "index.html";
+                                    location.href = "inicio.html";
                                 };
                             </script>
                         </p>
