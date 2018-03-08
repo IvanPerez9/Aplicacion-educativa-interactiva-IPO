@@ -23,16 +23,19 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="#"><img class="imgU" src="img/LogoU.png" height="40" width="50"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+			<a class="navbar-brand" href="#">
+				<img class="imgU" src="img/LogoU.png" height="40" width="50">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Inicio
-                <span class="sr-only">(current)</span>
-              </a>
+							<span class="sr-only">(current)</span>
+						</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Juegos</a>
@@ -45,14 +48,14 @@
 					</li>
 
 					<li class="nav-item">
-						
+
 						<a href="#" class="nav-link" data-toggle="dropdown">
-                        <span class="glyphicon glyphicon-user"></span> 
+							<span class="glyphicon glyphicon-user"></span>
 							<strong>Usuario</strong>
-                        <span class="glyphicon glyphicon-chevron-down"></span>
-                    	</a>
-						
-<!--
+							<span class="glyphicon glyphicon-chevron-down"></span>
+						</a>
+
+						<!--
 							<ul class="dropdown-menu">
 								<li>
 									<div class="navbar-login">
@@ -107,11 +110,12 @@
 				</h1>
 
 				<!-- Blog Post -->
-				<div class="card mb-4">
+				<div class="card mb-4" id="Tema1">
 					<img class="card-img-top" src="img/etapas.png" alt="Card image cap">
 					<div class="card-body">
 						<h2 class="card-title">Historia y la cronologia</h2>
-						<p class="card-text">En esta unidad aprenderemos la nocion del tiempo historico y sus variables: cronologia ,sucesion y simultaneidad,cambioycontinuidad,duracion,ritmo,intensidad y periodizacion </p>
+						<p class="card-text">En esta unidad aprenderemos la nocion del tiempo historico y sus variables: cronologia ,sucesion y simultaneidad,cambioycontinuidad,duracion,ritmo,intensidad
+							y periodizacion </p>
 						<a href="Post.html" class="btn btn-primary">Leer tema 1 &rarr;</a>
 					</div>
 					<div class="card-footer text-muted">
@@ -121,11 +125,12 @@
 				</div>
 
 				<!-- Blog Post -->
-				<div class="card mb-4">
+				<div class="card mb-4" id="Tema2" >
 					<img class="card-img-top" src="img/edad-media.png" alt="Card image cap">
 					<div class="card-body">
 						<h2 class="card-title">La Edad Media</h2>
-						<p class="card-text">En este tema estudiaremos los fundamentos de la Edad Media: su historia, las estapas , caracteristicas principales y la estructura social del sistema feudal</p>
+						<p class="card-text">En este tema estudiaremos los fundamentos de la Edad Media: su historia, las estapas , caracteristicas principales
+							y la estructura social del sistema feudal</p>
 						<a href="#" class="btn btn-primary">Leer tema 2 &rarr;</a>
 					</div>
 					<div class="card-footer text-muted">
@@ -154,61 +159,82 @@
 					<h5 class="card-header">Buscar</h5>
 					<div class="card-body">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="¿Que quieres encontrar?...">
-							<span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">Go!</button>
-                </span>
+							<FORM method=GET action="http://www.google.es/search">
+								<fieldset>
+									<input type=hidden name=ie value=UTF-8 />
+									<input type=hidden name=oe value=UTF-8 />
+
+									<input placeholder="Busqueda en Google" type=text id="s" name="q" value="" />
+									<font size=-1>
+										<br>
+										<input type=submit id="btnBuscar" name=btnG VALUE="Buscar" />
+									</font>
+								</fieldset>
+							</FORM>
+						</div>
+						</span>
+					</div>
+				</div>
+
+			<!-- Categories Widget -->
+			<div class="card my-4">
+				<h5 class="card-header">Temas</h5>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-lg-6">
+							<ul class="list-unstyled mb-0">
+								<li>
+									<FONT FACE='Cursiva'>
+										<a href="#Tema1">TEMA 1</a>
+									</FONT>
+								</li>
+								<li>
+									<FONT FACE='Cursiva'>
+										<a href="#Tema2">TEMA 2</a>
+									</FONT>
+								</li>
+								<li>
+									<FONT FACE='Cursiva'>
+										<a href="#">TEMA 3</a>
+									</FONT>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-6">
+							<ul class="list-unstyled mb-0">
+								<li>
+									<FONT FACE='Cursiva'>
+										<a href="#">TEMA 4</a>
+									</FONT>
+								</li>
+								<li>
+									<FONT FACE='Cursiva'>
+										<a href="#">TEMA 5</a>
+									</FONT>
+								</li>
+								<li>
+									<FONT FACE='Cursiva'>
+										<a href="#">TEMA 6</a>
+									</FONT>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<!-- Categories Widget -->
-				<div class="card my-4">
-					<h5 class="card-header">Temas</h5>
-					<div class="card-body">
-						<div class="row">
-							<div class="col-lg-6">
-								<ul class="list-unstyled mb-0">
-									<li>
-										<FONT FACE='Cursiva'> <a href="#">TEMA 1</a></FONT>
-									</li>
-									<li>
-										<FONT FACE='Cursiva'><a href="#">TEMA 2</a></FONT>
-									</li>
-									<li>
-										<FONT FACE='Cursiva'><a href="#">TEMA 3</a></FONT>
-									</li>
-								</ul>
-							</div>
-							<div class="col-lg-6">
-								<ul class="list-unstyled mb-0">
-									<li>
-										<FONT FACE='Cursiva'> <a href="#">TEMA 4</a></FONT>
-									</li>
-									<li>
-										<FONT FACE='Cursiva'> <a href="#">TEMA 5</a></FONT>
-									</li>
-									<li>
-										<FONT FACE='Cursiva'> <a href="#">TEMA 6</a></FONT>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+			<!-- Side Widget -->
+			<div class="card my-4">
+				<h5 class="card-header">Consejos</h5>
+				<div class="card-body">
+					Repasad, esforzaros y no olvideis divertidos mientras aprendeis
 				</div>
-
-				<!-- Side Widget -->
-				<div class="card my-4">
-					<h5 class="card-header">Consejos</h5>
-					<div class="card-body">
-						Repasad, esforzaros y no olvideis divertidos mientras aprendeis
-					</div>
-				</div>
-
 			</div>
 
 		</div>
-		<!-- /.row -->
+
+	</div>
+	<!-- /.row -->
 
 	</div>
 	<!-- /.container -->
@@ -239,8 +265,10 @@
 
 
 <ul class="nav navbar-nav navbar-right">
-	<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Account
-                                        <b class="caret"></b></a>
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Account
+			<b class="caret"></b>
+		</a>
 		<ul class="dropdown-menu">
 			<li>
 				<div class="navbar-content">
@@ -248,7 +276,8 @@
 						<div class="col-md-5">
 							<img src="http://placehold.it/120x120" alt="Alternate Text" class="img-responsive" />
 							<p class="text-center small">
-								<a href="#">Change Photo</a></p>
+								<a href="#">Change Photo</a>
+							</p>
 						</div>
 						<div class="col-md-7">
 							<span>Bhaumik Patel</span>

@@ -26,6 +26,10 @@ body {
   margin-top: 20px;
 }
 
+#btnBuscar{
+  margin-top: 0.5rem;
+}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
   padding-left: 0;
