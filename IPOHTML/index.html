@@ -132,7 +132,6 @@
 								</fieldset>
 							</FORM>
 						</div>
-						</span>
 					</div>
 				</div>
 
@@ -186,9 +185,31 @@
 				<!-- Side Widget -->
 				<div class="card my-4">
 					<h5 class="card-header">Consejos</h5>
-					<div class="card-body">
-						Repasad, esforzaros y no olvideis divertidos mientras aprendeis
-					</div>
+					<p id="demo"></p>
+					<button onclick="document.getElementById('demo').innerHTML = getRndInteger(1,5)">Click Me</button>
+					
+					<script>
+					function getRndInteger(min, max) {
+						var resul;
+						result = Math.floor(Math.random() * (max - min + 1) ) + min;
+						if(result==1){
+							return "!Animo!";	
+						}
+						if(result==2){
+							return "Recuerda descansar cada 30 minutos :=)";	
+						}
+						if(result==3){
+							return "Repasad, esforzaros y no olvideis divertidos mientras aprendeis";	
+						}
+						if(result==4){
+							return "El dragón tragón: Un dragón tragón tragó carbón.y el carbón que tragó el dragón tragón le hizo salir barrigón.	";	
+						}
+						if(result==5){
+							return "No te des por vencido";	
+						}
+						
+					}
+					</script>
 				</div>
 
 			</div>
