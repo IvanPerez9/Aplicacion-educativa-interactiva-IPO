@@ -26,30 +26,64 @@
 			<a class="navbar-brand" href="index.html">
 				<img class="imgU" src="img/LogoU.png" height="40" width="50">
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-			 aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
+					
+					<li>
+						<ul class="nav-item">
+							<li class="dropdown">
+								<a href="#" class="nav-link" data-toggle="dropdown">Usuario
+			<b class="caret"></b>
+		</a>
+								<ul class="dropdown-menu">
+									<li>
+										<div class="navbar-content">
+											<div class="row">
+												<div class="col-md-5">
+													<img src="http://placehold.it/120x120" alt="Alternate Text" class="img-responsive" />
+													<p class="text-center small">
+														<a href="#">Change Photo</a>
+													</p>
+												</div>
+												<div class="col-md-7">
+													<span>Bhaumik Patel</span>
+													<p class="text-muted small">
+														mail@gmail.com</p>
+													<div class="divider">
+													</div>
+													<a href="#" class="btn btn-primary btn-sm active">View Profile</a>
+												</div>
+											</div>
+										</div>
+										<div class="navbar-footer">
+											<div class="navbar-footer-content">
+												<div class="row">
+													<div class="col-md-6">
+														<a href="#" class="btn btn-default btn-sm">Change Passowrd</a>
+													</div>
+													<div class="col-md-6">
+														<a href="http://www.jquery2dotnet.com" class="btn btn-default btn-sm pull-right">Sign Out</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
 					<li class="nav-item active">
 						<a class="nav-link" href="index.html">Inicio
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="juegos.html">Juegos</a>
+						<a class="nav-link" href="#">Juegos</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="contacto.html">Contacto</a>
-					</li>
-
-					<li class="nav-item">
-
-						<a href="#" class="nav-link" data-toggle="dropdown">
-							<span class="glyphicon glyphicon-user"></span>
-							<strong>Usuario</strong>
-							<span class="glyphicon glyphicon-chevron-down"></span>
-						</a>
 					</li>
 				</ul>
 			</div>
@@ -74,10 +108,8 @@
 					<img class="card-img-top" src="img/etapas.png" alt="Card image cap">
 					<div class="card-body">
 						<h2 class="card-title">Historia y la cronologia</h2>
-						<p class="card-text">En esta unidad aprenderemos la nocion del tiempo historico y sus variables: cronologia ,sucesion y simultaneidad,cambioycontinuidad,duracion,ritmo,intensidad
-							y periodizacion </p>
-						<a href="Post1.html" class="btn btn-primary">Leer tema 1 &rarr;</a>
-						<a href="test1.html" class="btn btn-primary">Evaluacion tema 1 &rarr;</a>
+						<p class="card-text">En esta unidad aprenderemos la nocion del tiempo historico y sus variables: cronologia ,sucesion y simultaneidad,cambioycontinuidad,duracion,ritmo,intensidad y periodizacion </p>
+						<a href="Post.html" class="btn btn-primary">Leer tema 1 &rarr;</a>
 					</div>
 					<div class="card-footer text-muted">
 						Posted on January 1, 2018 by
@@ -90,10 +122,8 @@
 					<img class="card-img-top" src="img/edad-media.png" alt="Card image cap">
 					<div class="card-body">
 						<h2 class="card-title">La Edad Media</h2>
-						<p class="card-text">En este tema estudiaremos los fundamentos de la Edad Media: su historia, las estapas , caracteristicas principales
-							y la estructura social del sistema feudal</p>
-						<a href="Post2.html" class="btn btn-primary">Leer tema 2 &rarr;</a>
-						<a href="test2.html" class="btn btn-primary">Evaluacion tema 2 &rarr;</a>
+						<p class="card-text">En este tema estudiaremos los fundamentos de la Edad Media: su historia, las estapas , caracteristicas principales y la estructura social del sistema feudal</p>
+						<a href="#" class="btn btn-primary">Leer tema 2 &rarr;</a>
 					</div>
 					<div class="card-footer text-muted">
 						Posted on January 5, 2018 by
@@ -189,28 +219,28 @@
 					<h5 class="card-header">Consejos</h5>
 					<p id="demo"></p>
 					<button onclick="document.getElementById('demo').innerHTML = getRndInteger(1,5)">Click Me</button>
-					
+
 					<script>
-					function getRndInteger(min, max) {
-						var resul;
-						result = Math.floor(Math.random() * (max - min + 1) ) + min;
-						if(result==1){
-							return "!Animo!";	
+						function getRndInteger(min, max) {
+							var resul;
+							result = Math.floor(Math.random() * (max - min + 1)) + min;
+							if (result == 1) {
+								return "!Animo!";
+							}
+							if (result == 2) {
+								return "Recuerda descansar cada 30 minutos :=)";
+							}
+							if (result == 3) {
+								return "Repasad, esforzaros y no olvideis divertidos mientras aprendeis";
+							}
+							if (result == 4) {
+								return "El dragón tragón: Un dragón tragón tragó carbón.y el carbón que tragó el dragón tragón le hizo salir barrigón.	";
+							}
+							if (result == 5) {
+								return "No te des por vencido";
+							}
+
 						}
-						if(result==2){
-							return "Recuerda descansar cada 30 minutos :=)";	
-						}
-						if(result==3){
-							return "Repasad, esforzaros y no olvideis divertidos mientras aprendeis";	
-						}
-						if(result==4){
-							return "El dragón tragón: Un dragón tragón tragó carbón.y el carbón que tragó el dragón tragón le hizo salir barrigón.	";	
-						}
-						if(result==5){
-							return "No te des por vencido";	
-						}
-						
-					}
 					</script>
 				</div>
 
@@ -238,53 +268,3 @@
 
 </html>
 
-
-
-
-
-
-
-
-
-
-<ul class="nav navbar-nav navbar-right">
-	<li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Account
-			<b class="caret"></b>
-		</a>
-		<ul class="dropdown-menu">
-			<li>
-				<div class="navbar-content">
-					<div class="row">
-						<div class="col-md-5">
-							<img src="http://placehold.it/120x120" alt="Alternate Text" class="img-responsive" />
-							<p class="text-center small">
-								<a href="#">Change Photo</a>
-							</p>
-						</div>
-						<div class="col-md-7">
-							<span>Bhaumik Patel</span>
-							<p class="text-muted small">
-								mail@gmail.com</p>
-							<div class="divider">
-							</div>
-							<a href="#" class="btn btn-primary btn-sm active">View Profile</a>
-						</div>
-					</div>
-				</div>
-				<div class="navbar-footer">
-					<div class="navbar-footer-content">
-						<div class="row">
-							<div class="col-md-6">
-								<a href="#" class="btn btn-default btn-sm">Change Passowrd</a>
-							</div>
-							<div class="col-md-6">
-								<a href="http://www.jquery2dotnet.com" class="btn btn-default btn-sm pull-right">Sign Out</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</li>
-</ul>
