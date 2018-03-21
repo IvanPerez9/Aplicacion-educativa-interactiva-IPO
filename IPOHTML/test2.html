@@ -105,7 +105,7 @@
 				<img class="imgU" src="img/LogoU.png" height="40" width="50">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-			 aria-expanded="false" aria-label="Toggle navigation">
+			    aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
@@ -184,21 +184,21 @@
 					<p> </p>
 				</form>
 				<form name="boton">
-					<input type="button" name="boton" value=" CORREGIR " onclick="corregir()" />
+					<input type="button" name="boton" class="btn btn-primary" value=" CORREGIR " onclick="corregir()" />
 				</form>
 				<br>
 				<br>
 				<b>RESULTADO DEL TEST</b>
 				<p>
-					<form name="resultado" action="">
+					<form name="resultado" action="" id="resultado">
 
-						Has acertado
-						<input size="3" id="aciertos"> preguntas
-						<br> Has fallado en
-						<input size="3" id="fallos"> preguntas
-						<br> Has dejado de responder
-						<input size="3" id="blancos"> preguntas
-						<p>
+						<input size="3" id="aciertos"> Acertadas
+						<br>
+						<input size="3" id="fallos"> Falladas
+						<br>
+						<input size="3" id="blancos"> En blanco
+						<br>
+						<p class="btn btn-outline-danger">
 							PUNTUACIÓN:
 							<input size="5" type="text" id="puntuacion" /> puntos
 					</form>
