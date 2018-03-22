@@ -12,19 +12,95 @@
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 
     <!--Custom css -->
-    <link href="css/inicio.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/blog-post.css" rel="stylesheet">
+	<link href="js/ramdon.js" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
 
 </head>
 
 
-<body id="page-top">
-    <header class="masthead text-center text-white d-flex">
-        <div class="container my-auto">
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="fas fa-arrow-circle-left fa-2x" ></i>
+                    </a>
+                    <img src="img/history.png" border="5" width="100" height="50"> 
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                    <li class="dropdown">
+                                        <a href="#" class="nav-link" data-toggle="dropdown"><i id="icon" class="fas fa-address-card"></i>Usuario</a>
+                                        
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <div class="row">
+                                                        <div class="col-md-5">
+                                                            <img src="http://placehold.it/120x120" alt="Alternate Text" class="img-responsive" />
+                                                            <p class="text-center small">
+                                                                <a href="#">Change Photo</a>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-7">
+                                                            <span>Bhaumik Patel</span>
+                                                            <p class="text-muted small">
+                                                                mail@gmail.com</p>
+                                                            <div class="divider">
+                                                            </div>
+                                                            <a href="#" class="btn btn-primary btn-sm active">View Profile</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="navbar-footer">
+                                                    <div class="navbar-footer-content">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <a href="#" class="btn btn-default btn-sm">Change Passowrd</a>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <a href="http://www.jquery2dotnet.com" class="btn btn-default btn-sm pull-right">Sign Out</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link"><i id="icon" class="fas fa-home"></i> Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="juegos.html"><i id="icon"class="fas fa-gamepad"></i>Juegos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html"><i id="icon" class="fas fa-envelope"></i>Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+        <div class="container"> 
             <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <h1 class="text-uppercase">
+                <div class="col-lg-10 mx-auto">   
+                    <h1 class="text-uppercase"> 
+                        <br>
                         <table style="margin:0 0 10px 0; width:244px; background:#fff; border:1px solid #F3F3F3;" cellspacing="0" cellpadding="0">
-                            MATEMATICAS
+                        MATEMATICAS
                             <tr>
                                 <td style="font-family:verdana; font-size:11px; color:#000; padding:5px 5px;">
                                     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
@@ -38,6 +114,7 @@
                                 </td>
                             </tr>
                         </table>
+                        <br>
                         <br>
                         <br>
                         GEOGRAFIA
@@ -57,9 +134,7 @@
                             </tr>
                         </table>
                     </h1>
-                    <a href="index.html" class="btn btn-primary">VOLVER AL INICIO &rarr;</a>
                 </div>
             </div>
         </div>
-    </header>
 </body>

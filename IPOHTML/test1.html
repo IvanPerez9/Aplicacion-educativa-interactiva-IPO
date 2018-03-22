@@ -12,7 +12,7 @@
 
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min1.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+
 
 	<!-- Custom styles for this template -->
 	<link href="css/blog-post.css" rel="stylesheet">
@@ -97,6 +97,7 @@
 			document.getElementById('blancos').value = blancos;
 			document.getElementById('puntuacion').value = puntuacion;
 		}
+	
 	</script>
 </head>
 
@@ -199,35 +200,35 @@
 						<!-- Primera pregunta -->
 						1.- Este es el enunciado de la primera pregunta del test. </p>
 					<p>
-						<input type="radio" name="pregunta1" id="p11" value="A"> Texto de la respuesta A. </p>
+						<input type="radio" name="pregunta1" onclick="alert('Acertado');pregunta1.checked;" id="p11" value="A"> Texto de la respuesta A. </p>
 					<p>
-						<input type="radio" name="pregunta1" id="p12" value="B"> Texto de la respuesta B. </p>
+						<input type="radio" name="pregunta1" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p12" value="B"> Texto de la respuesta B. </p>
 					<p>
-						<input type="radio" name="pregunta1" id="p13" value="C"> Texto de la respuesta C. </p>
+						<input type="radio" name="pregunta1" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p13" value="C"> Texto de la respuesta C. </p>
 					<p>
-						<input type="radio" name="pregunta1" id="p14" value="D"> Texto de la respuesta D. </p>
+						<input type="radio" name="pregunta1" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p14" value="D"> Texto de la respuesta D. </p>
 					<p> </p>
 					<!-- Segunda pregunta -->2.- Este es el enunciado de la segunda pregunta del test.
 					<p> </p>
 					<p>
-						<input type="radio" name="pregunta2" id="p21" value="A"> Texto de la respuesta A. </p>
+						<input type="radio" name="pregunta2" onclick="alert('Acertado');pregunta1.checked;" id="p21" value="A"> Texto de la respuesta A. </p>
 					<p>
-						<input type="radio" name="pregunta2" id="p22" value="B"> Texto de la respuesta B. </p>
+						<input type="radio" name="pregunta2" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p22" value="B"> Texto de la respuesta B. </p>
 					<p>
-						<input type="radio" name="pregunta2" id="p23" value="C"> Texto de la respuesta C. </p>
+						<input type="radio" name="pregunta2" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p23" value="C"> Texto de la respuesta C. </p>
 					<p>
-						<input type="radio" name="pregunta2" id="p24" value="D"> Texto de la respuesta D. </p>
+						<input type="radio" name="pregunta2" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p24" value="D"> Texto de la respuesta D. </p>
 					<p> </p>
 					<!-- Tercera pregunta -->3.- Este es el enunciado de la tercera pregunta del test.
 					<p> </p>
 					<p>
-						<input type="radio" name="pregunta3" id="p31" value="A"> Texto de la respuesta A. </p>
+						<input type="radio" name="pregunta3" onclick="alert('Acertado');pregunta1.checked;" id="p31" value="A"> Texto de la respuesta A. </p>
 					<p>
-						<input type="radio" name="pregunta3" id="p32" value="B"> Texto de la respuesta B. </p>
+						<input type="radio" name="pregunta3" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p32" value="B"> Texto de la respuesta B. </p>
 					<p>
-						<input type="radio" name="pregunta3" id="p33" value="C"> Texto de la respuesta C. </p>
+						<input type="radio" name="pregunta3" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p33" value="C"> Texto de la respuesta C. </p>
 					<p>
-						<input type="radio" name="pregunta3" id="p34" value="D"> Texto de la respuesta D. </p>
+						<input type="radio" name="pregunta3" onclick="alert('Fallo, vuelve a leer la pregunta');pregunta1.checked;" id="p34" value="D"> Texto de la respuesta D. </p>
 					<p> </p>
 				</form>
 				<form name="boton">
@@ -245,7 +246,8 @@
 						<input size="3" id="fallos"> preguntas
 						<br> Has dejado de responder
 						<input size="3" id="blancos"> preguntas
-						<p>
+						<br>
+						<p class="btn btn-outline-danger">
 							PUNTUACIÓN:
 							<input size="5" type="text" id="puntuacion" /> puntos
 					</form>
