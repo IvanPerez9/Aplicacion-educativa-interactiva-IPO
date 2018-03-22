@@ -8,36 +8,40 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>History X - IPO 2017/18</title>
+	<title style="font-family: 'Lobster', serif;">History X - IPO 2017/18</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
 	<link href="css/blog-home.css" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
-				<img class="imgU" src="img/LogoU.png" height="40" width="50">
+				<i class="fas fa-arrow-circle-left fa-2x" ></i>
 			</a>
+			
+			<img src="img/history.png" border="5" width="100" height="50"> 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					
-					<li>
-						<ul class="nav-item">
+					<li class="nav-item">
 							<li class="dropdown">
-								<a href="#" class="nav-link" data-toggle="dropdown">Usuario
-			<b class="caret"></b>
-		</a>
+								<a href="#" class="nav-link" data-toggle="dropdown"><i id="icon" class="fas fa-address-card"></i>Usuario</a>
+								
 								<ul class="dropdown-menu">
 									<li>
 										<div class="navbar-content">
@@ -73,17 +77,14 @@
 									</li>
 								</ul>
 							</li>
-						</ul>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Inicio
-						</a>
+					<li class="nav-item">
+						<a href="index.html" class="nav-link"><i id="icon" class="fas fa-home"></i> Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="juegos.html">Juegos</a>
+						<a class="nav-link" href="juegos.html"><i id="icon"class="fas fa-gamepad"></i>Juegos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contacto.html">Contacto</a>
+						<a class="nav-link" href="contacto.html"><i id="icon" class="fas fa-envelope"></i>Contacto</a>
 					</li>
 				</ul>
 			</div>
@@ -99,9 +100,11 @@
 			<!-- Blog Entries Column -->
 			<div class="col-md-8">
 
-				<h1 class="my-4">Historia
+				<h1 class="my-4" style="font-family: 'Lobster', serif;" align="center" font-size: 2em; >Historia
 					<small>1º Primaria A</small>
 				</h1>
+
+				<hr>
 
 				<!-- Blog Post -->
 				<div class="card mb-4" id="Tema1">
@@ -161,7 +164,7 @@
 									<input placeholder="Busqueda en Google" type=text id="s" name="q" value="" />
 									<font size=-1>
 										<br>
-										<input type=submit id="btnBuscar" name=btnG VALUE="Buscar" />
+										<input class="btn btn-primary" type=submit id="btnBuscar" name=btnG VALUE="Buscar" />
 									</font>
 								</fieldset>
 							</FORM>
@@ -170,47 +173,37 @@
 				</div>
 
 				<!-- Categories Widget -->
-				<div class="card my-4">
-					<h5 class="card-header">Temas</h5>
+				<div class="card my-4" id="menus">
+					<h5 class="card-header">Categories</h5>
 					<div class="card-body">
 						<div class="row">
-							<div class="col-lg-6">
-								<ul class="list-unstyled mb-0">
-									<li>
-										<FONT FACE='Cursiva'>
-											<a href="#Tema1">TEMA 1</a>
-										</FONT>
-									</li>
-									<li>
-										<FONT FACE='Cursiva'>
-											<a href="#Tema2">TEMA 2</a>
-										</FONT>
-									</li>
-									<li>
-										<FONT FACE='Cursiva'>
-											<a href="#">TEMA 3</a>
-										</FONT>
-									</li>
-								</ul>
-							</div>
-							<div class="col-lg-6">
-								<ul class="list-unstyled mb-0">
-									<li>
-										<FONT FACE='Cursiva'>
-											<a href="#">TEMA 4</a>
-										</FONT>
-									</li>
-									<li>
-										<FONT FACE='Cursiva'>
-											<a href="#">TEMA 5</a>
-										</FONT>
-									</li>
-									<li>
-										<FONT FACE='Cursiva'>
-											<a href="#">TEMA 6</a>
-										</FONT>
-									</li>
-								</ul>
+							<div class="row" id="tema">
+								<div class="col-lg-6">
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a id="d" href="#Tema1">TEMA 1</a>
+										</li>
+										<li>
+											<a id="d"href="#Tema2">TEMA 2</a>
+										</li>
+										<li>
+											<a id="d"href="#">TEMA 3</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-lg-6">
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a id="d"href="#">TEMA 4</a>
+										</li>
+										<li>
+											<a id="d"href="#">TEMA 5</a>
+										</li>
+										<li>
+											<a id="d"href="#">TEMA 6</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -220,7 +213,7 @@
 				<div class="card my-4">
 					<h5 class="card-header">Consejos</h5>
 					<p id="demo"></p>
-					<button onclick="document.getElementById('demo').innerHTML = getRndInteger(1,5)">Click Me</button>
+					<button class="btn btn-primary" onclick="document.getElementById('demo').innerHTML = getRndInteger(1,5)">Click Me</button>
 
 					<script>
 						function getRndInteger(min, max) {
